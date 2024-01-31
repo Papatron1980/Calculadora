@@ -1,0 +1,90 @@
+html,body
+{
+    height: 100%;
+    margin:0;
+}
+
+.tabla
+{
+    border: px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+td,th
+{
+    
+    height: 50px;
+    border: 1px solid black;
+    font-size: 25px;
+    border-collapse:collapse;
+    text-align: center;
+    vertical-align: center;
+}
+
+.boton, .clear, .operador, .reset, .igual
+{
+ 
+  width: 50px;
+  height: 50px;  
+  background-color: grey; /* Color de fondo */
+  color: white;             /* Color del texto */
+  text-align: center;       /* Alineación del texto */
+  text-decoration: none;    /* Quitar subrayado de los enlaces */
+  display: inline-block;    /* Hacer que el botón sea un bloque en línea */
+  font-size: 16px;          /* Tamaño del texto */
+  margin: 10px;          /* Margen alrededor del botón */
+  cursor: pointer;          /* Cambiar el cursor a una mano cuando se pasa el mouse */
+  border: 1px solid black;             /* Quitar el borde */
+  border-radius: 6px; 
+  
+}
+
+.pressed
+{
+background-color: blue;
+}
+
+.numero
+{
+ 
+  width: 50px;
+  height: 50px;  
+  background-color: orange; /* Color de fondo */
+  color: white;             /* Color del texto */
+  text-align: center;       /* Alineación del texto */
+  text-decoration: none;    /* Quitar subrayado de los enlaces */
+  display: inline-block;    /* Hacer que el botón sea un bloque en línea */
+  font-size: 16px;          /* Tamaño del texto */
+  margin: 10px;          /* Margen alrededor del botón */
+  cursor: pointer;          /* Cambiar el cursor a una mano cuando se pasa el mouse */
+  border: 1px solid black;             /* Quitar el borde */
+  border-radius: 6px; 
+  
+}
+
+.boton:hover
+{
+    background-color: darkslategrey;
+}
+
+#display
+{
+    
+    
+    height: 50px;
+    background-color: lightgrey; /* Color de fondo */
+    color: white;             /* Color del texto */
+    padding: 0px 70px;       /* Relleno: arriba/abajo, izquierda/derecha */
+    text-align: right;       /* Alineación del texto */
+    text-decoration: none;    /* Quitar subrayado de los enlaces */
+    display: inline-block;    /* Hacer que el botón sea un bloque en línea */
+    font-size: 25px;          /* Tamaño del texto */
+    font-weight: bold;
+    margin: 0px;          /* Margen alrededor del botón */
+    cursor: pointer;          /* Cambiar el cursor a una mano cuando se pasa el mouse */
+    border: none;             /* Quitar el borde */
+    border-radius: 4px; 
+}
